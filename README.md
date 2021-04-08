@@ -39,9 +39,8 @@ shotgun --port=9292
 **Fetch example**
 >  Your react app should make fetch requests to your rack backend! 
 
-```
+```js
    fetch("http://localhost:9292/test")
     .then(res => res.json())
     .then(console.log)
-
 ```
