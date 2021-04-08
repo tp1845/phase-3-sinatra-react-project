@@ -28,9 +28,8 @@ Run the rack server
 4. application.rb has an example GET route, replace this route with routes for your project! 
 
 **Start your server with:**
-```
-shotgun --port=9292
-```
+` shotgun --port=9292 `
+
 > **Note:** This will run your server on port http://localhost:9292. 
 > [shotgun](https://github.com/rtomayko/shotgun) is a ruby gem that will automatic reload your rack server. You may still need to refresh your browser to see changes. 
 
