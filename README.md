@@ -1,5 +1,7 @@
 # Project Requirements
 
+## Instructions
+
 ### Option One - _Data Analytics Project_
 
 1. Access a Sqlite3 Database using ActiveRecord.
