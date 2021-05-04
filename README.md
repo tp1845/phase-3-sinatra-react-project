@@ -33,7 +33,7 @@ Run the rack server
 ` shotgun --port=9292 `
 
 > **Note:** This will run your server on port http://localhost:9292. 
-> [shotgun](https://github.com/rtomayko/shotgun) is a ruby gem that will automatic reload your rack server. You may still need to refresh your browser to see changes. 
+> [shotgun](https://github.com/rtomayko/shotgun) is a ruby gem that will automatically reload your rack server. You may still need to refresh your browser to see changes. 
 
 5. Your backend and your frontend should be in two different repositories. Create a new repository with a react app for your frontend. 
 
