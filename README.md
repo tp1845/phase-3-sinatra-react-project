@@ -2,21 +2,10 @@
 
 ## Instructions
 
-### Option One - _Data Analytics Project_
-
+ _CRUD App_
 1. Access a Sqlite3 Database using ActiveRecord.
-2. You should have at minimum three models including one join model. This means you must have a many-to-many relationship.
-3. You should seed your database using data that you collect either from a CSV, a website by scraping, or an API.
-4. Your models should have methods that answer interesting questions about the data. For example, if you've collected info about movie reviews, what is the most popular movie? What movie has the most reviews?
-5. You should provide a simple **React** frontend to display the return values of your interesting methods.
-6. Use good OO design patterns. You should have separate classes for your models
-
-- **Resource:** [Easy Access APIs](http://github.com/learn-co-curriculum/easy-access-apis)
-
-### Option Two - _CRUD App_
-1. Access a Sqlite3 Database using ActiveRecord.
-2. You should have a minimum of three models.
-3. You should build out a simple **React** frontend to give your user full CRUD ability for at least one of your resources. For example, build out a To-Do list. A user should be able to create a new to-do, see all todos, update a todo item, and delete a todo. Todos can be grouped into categories, so that a to-do has many categories and categories have many to-dos.
+2. You should have a minimum of two models with a one to many relationship.
+3. You should build out a simple **React** frontend to give your user 3 of the 4 CRUD abilities for at least one of your resources. For example, build out a To-Do list. A user should be able to create a new to-do, see all todos, update a todo item, and delete a todo. Todos can be grouped into categories, so that a to-do has many categories and categories have many to-dos.
 4. Use good OO design patterns. You should have separate classes for your models. 
 Getting started
 Clone down this repository to use as your backend. The rack folder has all of the basics for a rack application. 
