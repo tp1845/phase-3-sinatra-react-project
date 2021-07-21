@@ -1,16 +1,43 @@
-# Phase 3 Sinatra Project
+# Phase 3 Sinatra Project Guidelines
+
+## Learning Goals
+
+- Build a web basic API with Sinatra and Active Record to support a React
+  frontend
+
+## Introduction
+
+Congrats on getting through all the material for Phase 3! Now's the time to put
+it all together and build something from scratch to reinforce what you know and
+expand your horizons.
+
+The focus of this project is **building a Sinatra API backend** that uses
+**Active Record** to access and persist data in a database, which will be used
+by a separate **React frontend** that interacts with the database via the API.
 
 ## Requirements
 
-1. Access a Sqlite3 database using Active Record.
-2. You should have a minimum of two models with a one to many relationship.
-3. You should build out a simple React frontend to give your user 3 of the 4
-   CRUD abilities for at least one of your resources. For example, build out a
-   todo list. A user should be able to create a new todo, see all todos, update
-   a todo item, and delete a todo. Todos can be grouped into categories, so that
-   a todo has many categories and categories have many todos.
-4. Use good OO design patterns. You should have separate classes for each of
-   your models, and create instance and class methods as necessary.
+For this project, you must:
+
+- Use Active Record to interact with a database.
+- Have a minimum of two models with a one-to-many relationship.
+- Create API routes in Sinatra that handles at least three different CRUD
+  actions for at least one of your Active Record models.
+- Build a separate React frontend application that interacts with the API to
+  perform CRUD actions.
+- Use good OO design patterns. You should have separate classes for each of your
+  models, and create instance and class methods as necessary.
+
+For example, build a todo list application with a React frontend interface and a
+Sinatra backend API, where a user can:
+
+- **Create** a new todo
+- **Read** a list of all todos
+- **Update** an individual todo
+- **Delete** a todo
+
+A `Todo` can be tagged with a `Category`, so that each todo _belongs to_ a
+category and each category _has many_ todos.
 
 ## Getting Started
 
@@ -18,10 +45,10 @@
 
 This repository has all the starter code needed to get a Sinatra backend up and
 running. Fork and clone this repository to get started. Then, run
-`bundle install` to install your gems.
+`bundle install` to install the gems.
 
 The `app/controllers/application_controller.rb` file has an example GET route
-handler. Replace this route with routes for your project!
+handler. Replace this route with routes for your project.
 
 You can start your server with:
 
@@ -34,7 +61,7 @@ This will run your server on port
 
 ### Frontend Setup
 
-Your backend and your frontend should be in two different repositories.
+Your backend and your frontend should be in **two different repositories**.
 
 Create a new repository in a **separate folder** with a React app for your
 frontend. `cd` out of the backend project directory, and use
