@@ -1,4 +1,4 @@
-# Phase 3 Sinatra Project Guidelines
+# Phase 3 Project Guidelines
 
 ## Learning Goals
 
@@ -44,7 +44,7 @@ category and each category _has many_ todos.
 ### Backend Setup
 
 This repository has all the starter code needed to get a Sinatra backend up and
-running. Fork and clone this repository to get started. Then, run
+running. **Fork and clone** this repository to get started. Then, run
 `bundle install` to install the gems.
 
 The `app/controllers/application_controller.rb` file has an example GET route
