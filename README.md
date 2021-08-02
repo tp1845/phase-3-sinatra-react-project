@@ -44,8 +44,10 @@ category and each category _has many_ todos.
 ### Backend Setup
 
 This repository has all the starter code needed to get a Sinatra backend up and
-running. **Fork and clone** this repository to get started. Then, run
+running. [**Fork and clone**][fork link] this repository to get started. Then, run
 `bundle install` to install the gems.
+
+[fork link]: https://github.com/learn-co-curriculum/phase-3-sinatra-react-project/fork
 
 The `app/controllers/application_controller.rb` file has an example GET route
 handler. Replace this route with routes for your project.
