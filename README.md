@@ -54,8 +54,8 @@ handler. Replace this route with routes for your project.
 
 You can start your server with:
 
-```sh
-bundle exec rake server
+```console
+$ bundle exec rake server
 ```
 
 This will run your server on port
@@ -69,8 +69,8 @@ Create a new repository in a **separate folder** with a React app for your
 frontend. `cd` out of the backend project directory, and use
 [create-react-app][] to generate the necessary code for your React frontend:
 
-```sh
-npx create-react-app my-app-frontend
+```console
+$ npx create-react-app my-app-frontend
 ```
 
 After creating the project locally, you should also
