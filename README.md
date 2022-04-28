@@ -67,7 +67,7 @@ This will run your server on port
 Your backend and your frontend should be in **two different repositories**.
 
 Create a new repository in a **separate folder** with a React app for your
-frontend. `cd` out of the backend project directory, and use
+frontend. To do this, `cd` out of the backend project directory, and use
 [create-react-app][] to generate the necessary code for your React frontend:
 
 ```console
