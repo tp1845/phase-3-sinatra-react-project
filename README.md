@@ -26,6 +26,9 @@ For this project, you must:
   - full CRUD capability for one of the models
 - Build a separate React frontend application that interacts with the API to
   perform CRUD actions.
+- Implement proper front end state management. You should be updating state using a
+  setState function after receiving your response from a POST, PATCH, or DELETE 
+  request. You should NOT be relying on a GET request to update state. 
 - Use good OO design patterns. You should have separate classes for each of your
   models, and create instance and class methods as necessary. 
 - Routes in your application (both client side and back end) should follow RESTful
