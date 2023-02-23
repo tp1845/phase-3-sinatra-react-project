@@ -23,7 +23,11 @@ For this project, you must:
 - Have at least two models with a one-to-many relationship.
 - At a minimum, set up the following API routes in Sinatra:
   - create and read actions for both models
-  - full CRUD capability for one of the models
+  - full CRUD capability for one of the models: 
+  The update action should be implemented using a form that is 
+  pre-filled with existing values for the object. On submission of 
+  the form, the object should update. Note: Using a like button or 
+  similar will not meet the update requirement.
 - Build a separate React frontend application that interacts with the API to
   perform CRUD actions.
 - Implement proper front end state management. You should be updating state using a
